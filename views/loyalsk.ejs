@@ -1,0 +1,462 @@
+<!doctype html>
+<html  class="loading"  lang="en-US"><!--------ملت وب مرجع خرید و فروش و همچنین انواع قالب های وردپرس و html mellatweb.com------------->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Selio - downloaded from themelock.com - Real Estate HTML Template</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/js/lib/slick/slick.css">
+    <link rel="stylesheet" href="assets/js/lib/slick/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/color.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/rtl.css">
+</head>
+
+<body class="rtl">
+    <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+
+    <div class="wrapper">
+
+      	<header>
+            <div class="header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <nav class="navbar navbar-expand-lg navbar-light">
+                                <a class="navbar-brand" href="01_Home.html">
+                                    <!-- <img src="assets/images/logo2.png" alt=""> -->
+                                </a>
+                                <button class="menu-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent">
+                                    <span class="icon-spar"></span>
+                                    <span class="icon-spar"></span>
+                                    <span class="icon-spar"></span>
+                                </button>
+
+                                <div class="navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav ml-auto">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link" href="/" data-toggle="dropdown">
+                                                صفحه اصلی
+                                            </a>
+                                            <div class="dropdown-menu animated">
+                                                <a class="dropdown-item" href="/">بازگشت</a>
+                                                <!-- <a class="dropdown-item" href="02_Home.rtl.html">Image Menu with Center Search 2</a>
+                                                <a class="dropdown-item" href="03_Home.rtl.html">Map with Center Search</a>
+                                                <a class="dropdown-item" href="04_Home.rtl.html">Geo SVG Map</a>
+                                                <a class="dropdown-item" href="05_Home.rtl.html">Slider Header</a>
+                                                <a class="dropdown-item" href="06_Home.rtl.html">Image Header with Description</a>
+                                                <a class="dropdown-item" href="07_Home_Categories_and_Advanced_Search.rtl.html">More Search Features</a> -->
+                                            </div>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link" href="/ask" data-toggle="dropdown">
+                                                طرح سوال
+                                            </a>
+                                            <div class="dropdown-menu animated">
+                                                <a class="dropdown-item active" href="/ask">طرح سوال به وکلا و شماورین</a>
+                                                <!-- <a class="dropdown-item" href="18_Half_Map.rtl.html">Half Map</a> -->
+                                            </div>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link" href="#" data-toggle="dropdown">
+                                                مشاوره عمومی
+                                            </a>
+                                            <div class="dropdown-menu animated">
+                                                <a class="dropdown-item" href="/public">طرح سوال رایگان</a>
+                                                <!-- <a class="dropdown-item" href="22_List_Layout_With_Sidebar.rtl.html">List Layout with Sidebar</a>
+                                                <a class="dropdown-item" href="11_Agent_Profile.rtl.html">Agent Profile</a>
+                                                <a class="dropdown-item" href="24_Property_Single.rtl.html">Property Single</a> -->
+                                            </div>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link" href="" data-toggle="dropdown">
+                                                درباره ما
+                                            </a>
+                                            <!-- <div class="dropdown-menu animated">
+                                                <a class="dropdown-item" href="12_Blog_Grid.rtl.html">Blog Grid</a>
+                                                <a class="dropdown-item" href="13_Blog_Standart.rtl.html">Blog Standard</a>
+                                                <a class="dropdown-item" href="14_Blog_Open.rtl.html">Blog Open</a>
+                                                <a class="dropdown-item" href="10_About.rtl.html">About</a>
+                                                <a class="dropdown-item" href="15_Contact.rtl.html">Contact</a>
+                                                <a class="dropdown-item" href="09_404.rtl.html">404</a>
+                                            </div> -->
+                                        </li>
+                                    </ul>
+                                    <div class="d-inline my-2 my-lg-0">
+                                        <ul class="navbar-nav">
+                                            <li class="nav-item signin-btn">
+                                                <a href="#" class="nav-link">
+                                                    
+                                                    <% if(ok == "false") { %>
+                                                    <i class="la la-sign-in"></i>
+                                                    <span><b style="font-size: large;" class="signin-op">ورود</b> یا <b style="font-size: large;" class="reg-op">عضویت</b></span>
+                                                    <% } if(ok == "true") { %>
+                                                    <span><a href="/panel"><b style="font-size: large;" >پنل کاربری</b> </a> یا <a href="/logout"><b style="font-size: large;" >خروج</b> </a></span>
+                                                    <% } %>
+                                                </a>
+
+                                            </li>
+                                            <!-- <li class="nav-item submit-btn">
+                                                <a href="#" class="my-2 my-sm-0 nav-link sbmt-btn">
+                                                    <i class="icon-plus"></i>
+                                                    <span>Submit Listing</span>
+                                                </a>
+                                            </li> -->
+                                        </ul>
+                                    </div>
+                                    <a href="#" title="" class="close-menu"><i class="la la-close"></i></a>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </header><!--header end-->
+
+        <div class="popup" id="sign-popup">
+            <h3>ورود به حساب کاربری</h3>
+            <div class="popup-form">
+                <form action="/login" , method="POST">
+                    <div class="form-field">
+                        <input type="number" name="phone" placeholder="شماره موبایل">
+                    </div>
+                    <div class="form-field">
+                        <input type="text" name="password" placeholder="رمز عبور">
+                    </div>
+                    <div class="form-cp">
+                        <div class="form-field">
+                            <div class="input-field">
+                                <input type="checkbox" name="ccc" id="cc1">
+                                <label for="cc1">
+                                    <span></span>
+                                    <small>مرا بخاطر بسپار</small>
+                                </label>
+                            </div>
+                        </div>
+                        <a href="#" title="">رمز عبور را فراموش کرده ام!</a>
+                    </div><!--form-cp end-->
+                    <button type="submit" class="btn2">ورود</button>
+                </form>
+                <!-- <a href="#" title="" class="fb-btn"> <i class="fa fa-facebook"></i>Sign In With Facebook</a> -->
+            </div>
+        </div><!--popup end-->
+
+        <div class="popup" id="register-popup">
+            <h3>عضویت</h3>
+            <div class="popup-form">
+                <form action="/signin" method="POST">
+                    <div class="form-field">
+                        <input type="text" name="name" placeholder="نام و نام خانوادگی">
+                    </div>
+                    <div class="form-field">
+                        <input type="number" name="phone" placeholder="شماره موبایل">
+                    </div>
+                    <div class="form-field">
+                        <input type="text" name="password" placeholder="رمز عبود">
+                    </div>
+                    <div class="form-cp">
+                        <div class="form-field">
+                            <div class="input-field">
+                                <input type="checkbox" name="ccc" id="cc2">
+                                <label for="cc2">
+                                    <span></span>
+                                    <small>با شرایط سایت موافقم</small>
+                                </label>
+                            </div>
+                        </div>
+                        <a href="#" title="" class="signin-op">ایا حساب کاربری دارید؟</a>
+                    </div><!--form-cp end-->
+                    <button type="submit" class="btn2">عضویت</button>
+                </form>
+            </div>
+        </div><!--popup end-->
+
+        <section class="form_sec">
+            <h3 class="vis-hid">Invisible</h3>
+            <div class="container">
+                <form action="#" class="row banner-search">
+                    <div class="form_field addres">
+                        <input type="text" class="form-control" placeholder="نام استاد یا شهر را وارد کنید">
+                    </div>
+                    <div class="form_field tpmax">
+                        <div class="form-group">
+                            <div class="drop-menu">
+                                <div class="select">
+                                    <span>جنسیت مشاور مهم است؟</span>
+                                    <i class="fa fa-angle-down"></i>
+                                </div>
+                                <input type="hidden" name="gender">
+                                <ul class="dropeddown">
+                                    <li>همه</li>
+                                    <li>اقا</li>
+                                    <li>خانوم</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form_field tpmax">
+                        <div class="form-group">
+                            <div class="drop-menu">
+                                <div class="select">
+                                    <span>حداکثر حق المشاوره</span>
+                                    <i class="fa fa-angle-down"></i>
+                                </div>
+                                <input type="hidden" name="gender">
+                                <ul class="dropeddown">
+                                    <li>300T</li>
+                                    <li>400T</li>
+                                    <li>500T</li>
+                                    <li>200T</li>
+                                    <li>600T</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form_field tpmax">
+                        <div class="form-group">
+                            <div class="drop-menu">
+                                <div class="select">
+                                    <span>ایا امتیاز مشاور مهم است؟</span>
+                                    <i class="fa fa-angle-down"></i>
+                                </div>
+                                <input type="hidden" name="gender">
+                                <ul class="dropeddown">
+                                    <li>مهم نیس</li>
+                                    <li>2</li>
+                                    <li>3</li>
+                                    <li>4</li>
+                                    <li>5</li>
+                                    <li>6</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form_field srch-btn">
+                        <a href="#" class="btn btn-outline-primary ">
+                            <i class="la la-search"></i>
+                            <span>جست و جو</span>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </section><!--form_sec end-->
+
+        <section class="property-single-pg">
+            <div class="container">
+                <div class="property-hd-sec">
+                    <div class="card">
+                        <div class="card-body">
+                            <a href="#">
+                                <h3>احمد باقری</h3>
+                                <p><i class="la la-map-marker"></i>اذربايجان شرقي - تبريز</p>
+                            </a>
+                            <ul>
+                                <li>خانواده</li>
+                                <li>املاک</li>
+                                <li>معامله</li>
+                            </ul>
+                        </div><!--card-body end-->
+                        <div class="rate-info">
+                            <!-- <h5>$550.000</h5> -->
+                            <span>آنلاین</span>
+                        </div><!--rate-info end-->
+                    </div><!--card end-->
+                </div><!---property-hd-sec end-->
+                <div class="property-single-page-content">
+                    <div class="row">
+                        <div class="col-lg-8 pl-0 pr-0">
+                            <div class="property-pg-left">
+                                <div class="property-imgs">
+                                    <div class="property-main-img">
+                                        <div class="property-img">
+                                            <img src="http://www.moshavere.net/media/avatar/1312.jpg" alt="">
+                                        </div><!--property-img end-->
+                                        <!-- <div class="property-img">
+                                            <img src="https://via.placeholder.com/770x515" alt="">
+                                        </div>
+                                        <div class="property-img">
+                                            <img src="https://via.placeholder.com/770x515" alt="">
+                                        </div>
+                                        <div class="property-img">
+                                            <img src="https://via.placeholder.com/770x515" alt="">
+                                        </div>
+                                        <div class="property-img">
+                                            <img src="https://via.placeholder.com/770x515" alt="">
+                                        </div>
+                                        <div class="property-img">
+                                            <img src="https://via.placeholder.com/770x515" alt="">
+                                        </div> -->
+                                    </div>
+                              
+                                </div><!--property-imgs end-->
+                                <div class="descp-text">
+                                    <h3>درباره وکیل</h3>
+                                    <p>وکیل پایه یک دادگستری و مشاور قضایی، عضو کانون وکلای آذربایجان شرقی با 10 سال سابقه کار بصورت فعال، قبول وکالت در تمام نقاط کشور خصوصاً در استانهای همجوار از جمله استانهای آذربایجانشرقی و آذربایجانغربی،زنجان،اردبیل،کرج،تهران و شهرستانهای خوی،مرند،جلفا، سلماس و... با زمینه های درخشان در پرونده های کار کرده. تنظیم انواع لوایح دفاعی تخصصی و کلیه مکاتبات حقوقی، دادخواست، شکوائیه، اظهار نامه، قرارداد و ... از طریق ایمیل، تلگرام، و واتساپ پذیرفته می شود. انتشار سوابق با کسب اجازه از اشخاص با حذف مشخصات کاربران محترم صورت می گیرد. لطفاً جهت مشاوره و یا سایر درخواستهای حقوقی، از قسمت «طرح سوال جدید» و یا به یکی از طرق ذیل اقدام نمائید. شماره تلگرام،واتس آپ و لاین 09141199813 ایمیل: bageri.lawyer1982@gmail.com و bageri.lawyer@yahoo.com ضمناً خواهشمند است از طرح سوالات رایگان خودداری فرمایید.</p>
+                                </div><!--descp-text end-->
+                               
+                                <div class="features-dv">
+                                    <h3>امکانات</h3>
+                                    <form class="form_field">
+                                        <ul>
+                                            <li class="input-field">
+                                                <input type="checkbox" name="cc" id="c1">
+                                                <label for="c1">
+                                                    <span></span>
+                                                    <small>مشخصات</small>
+                                                </label>
+                                            </li>
+                                            <li class="input-field">
+                                                <input type="checkbox" name="cc" id="c2">
+                                                <label for="c2">
+                                                    <span></span>
+                                                    <small>سوابق مشاوره</small>
+                                                </label>
+                                            </li>
+                                            <li class="input-field">
+                                                <input type="checkbox" name="cc" id="c3">
+                                                <label for="c3">
+                                                    <span></span>
+                                                    <small>مطالب اموزشی</small>
+                                                </label>
+                                            </li>
+                                            <li class="input-field">
+                                                <input type="checkbox" name="cc" id="c4">
+                                                <label for="c4">
+                                                    <span></span>
+                                                    <small>وبلاگ عمومی</small>
+                                                </label>
+                                            </li>
+                                            <li class="input-field">
+                                                <input type="checkbox" name="cc" id="c5">
+                                                <label for="c5">
+                                                    <span></span>
+                                                    <small>تخصص ها و مهارت ها</small>
+                                                </label>
+                                            </li>
+                                            <li class="input-field">
+                                                <input type="checkbox" name="cc" id="c6">
+                                                <label for="c6">
+                                                    <span></span>
+                                                    <small>تماس با مشاور</small>
+                                                </label>
+                                            </li>
+                                        </ul>
+                                    </form>
+                                </div><!--features-dv end-->
+                               
+                                <div class="map-dv">
+                                    <h3>موقعیت روی نقشه</h3>
+                                    <div id="map-container" class="fullwidth-home-map">
+                                        <div id="map" data-map-zoom="9"></div>
+                                    </div>
+                                </div><!--map-dv end-->
+                               
+                            </div><!--property-pg-left end-->
+                        </div>
+                        <div class="col-lg-4 pl-0">
+                            <div class="sidebar layout2">
+                                <div class="widget widget-form">
+                                    <h3 class="widget-title">درخواست مشاوره</h3>
+                                    <div class="contct-info">
+                                        <!-- <img src="https://via.placeholder.com/81x74" alt=""> -->
+                                        <div class="contct-nf">
+                                            <h3>احمد باقری</h3>
+                                            <h4>حالت پاسخگویی افلاین فعال است</h4>
+                                            <span><i class="la la-phone"></i>+1 212-925-3797</span>
+                                        </div>
+                                    </div><!--contct-info end-->
+                                    <% if(use.type != 1) { %>
+                                    <div class="post-comment-sec">
+                                        <form action="/moshavere" method="POST">
+                                            <div class="form-field">
+                                                <input type="text" name="name" value="<%- use.name %>" placeholder="نام شما">
+                                            </div><!--form-field end-->
+                                            <div class="form-field">
+                                                <input type="text" name="email"  value="اختیاری" placeholder="ایمیل شما">
+                                            </div><!--form-field end-->
+                                            <div class="form-field">
+                                                <input type="text" name="phone"  value="<%- use.phone %>" placeholder="شماره موبایل شما">
+                                            </div><!--form-field end-->
+                                            <div class="form-field">
+                                                <textarea name="message" placeholder="متن پیام خودرا بنویسید"></textarea>
+                                            </div><!--form-field end-->
+                                            <div class="form-field">
+                                                <input type="hidden" name="id" value="sk" placeholder="متن پیام خودرا بنویسید"></input >
+                                            </div><!--form-field end-->
+                                            <% if(ok == "true"){ %>
+                                            <button type="submit" class="btn2">ارسال</button>
+                                            <% } if(ok == "false") { %>
+                                            <button type="button" class="btn2">اول باید وارد شوید</button>
+                                            <% } %>
+                                        </form>
+                                    </div><!--post-comment-sec end-->
+                                    <% } %>
+                                    <% if(ok == "false") { %>
+                                        <button type="button" class="btn2 signin-op">برای طرح سوال لطفا وارد شوید</button>
+                                    <% } %>
+                                </div><!--widget-form end-->
+                                <div class="widget widget-catgs">
+                                    <h3 class="widget-title">دسته بندی</h3>
+                                    <ul>
+                                        <li>
+                                            <a href="#" title=""><i class="la la-angle-right"></i><span>معامله</span></a>
+                                            <span>7</span>
+                                        </li>
+                                        <li>
+                                            <a href="#" title=""><i class="la la-angle-right"></i><span>خانواده</span></a>
+                                            <span>15</span>
+                                        </li>
+                                        <li>
+                                            <a href="#" title=""><i class="la la-angle-right"></i><span>تجاری</span></a>
+                                            <span>4</span>
+                                        </li>
+                                        <li>
+                                            <a href="#" title=""><i class="la la-angle-right"></i><span>وصیت</span></a>
+                                            <span>1</span>
+                                        </li>
+                                    </ul>
+                                </div><!--widget-catgs end-->
+                               
+                               
+                            </div><!--sidebar end-->
+                        </div>
+                    </div>
+                </div><!--property-single-page-content end-->
+            </div>
+        </section><!--property-single-pg end-->
+
+    
+     
+    
+    </div><!--wrapper end-->
+
+
+
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/html5lightbox.js"></script>
+    <script src="assets/js/lib/slick/slick.js"></script>
+    <script src="assets/js/scripts.js"></script>
+
+    <!-- Maps -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVwc4veKudU0qjYrLrrQXacCkDkcy3AeQ"></script>
+    <script src="assets/js/map-cluster/infobox.min.js"></script>
+    <script src="assets/js/map-cluster/markerclusterer.js"></script>
+    <script src="assets/js/map-cluster/map2.js"></script>
+
+
+
+</body>
+
+</html>

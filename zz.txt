@@ -1,0 +1,5 @@
+02_home.html for home page
+24_Property_Single.html for loyal det
+/22_List_Layout_With_Sidebar.html  for ask
+13_Blog_Standart.html for poblic 
+10_About.html for publick det
